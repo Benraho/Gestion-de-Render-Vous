@@ -1,0 +1,40 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand i {
+  margin-right: 8px;
+}
+
+.mainFrame {
+  max-width: 1200px;  /* Increased the width for a more prominent video */
+  margin: auto;
+}
+
+#videoStream {
+  width: 100%;  /* Ensure the video fills the width */
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:disabled {
+  background-color: #6c757d;
+  border: none;
+}
